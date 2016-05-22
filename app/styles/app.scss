@@ -1,0 +1,49 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-container{
+  display:flex;
+  width:90%;
+  text-align: center;
+  margin: 30px auto;
+
+}
+.flex-item{
+  width:300px;
+  margin:auto;
+  border:solid 1px #CCC;
+  border-radius: 20px;
+  flex-shrink: 1;
+  button{
+    margin-bottom: 10px;
+  }
+  ul{
+    display:flex;
+    height:150px;
+    padding-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    list-style-type: none;
+    li{
+      text-align: center;
+      width:100px;
+      height:100px;
+      margin:auto;
+    }
+  }
+}
